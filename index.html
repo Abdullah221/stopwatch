@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Digital Stopwatch with Lap Timing</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="stopwatch">
+    <div class="display">00:00:00.00</div>
+    <button class="start" onclick="startStopwatch()">Start</button>
+    <button class="stop" onclick="stopStopwatch()" disabled>Stop</button>
+    <button class="reset" onclick="resetStopwatch()" disabled>Reset</button>
+    <button class="lap" onclick="recordLap()" disabled>Lap</button>
+    <ul class="lap-list"></ul>
+</div>
+
+<script src="js/main.js">
+</script>
+
+</body>
+</html>

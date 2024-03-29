@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+.stopwatch {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    margin: 50px auto;
+}
+.display {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.lap-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    max-height: 200px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+.lap-list li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+button.start, button.stop {
+    background-color: #4caf50;
+    color: white;
+}
+button.reset, button.lap {
+    background-color: #2196f3;
+    color: white;
+}
